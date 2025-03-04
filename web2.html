@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimzz SC Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% { background: linear-gradient(120deg, #f6d365 0%, #fda085 100%); }
+            100% { background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+        }
+
+        header {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: #ff7e5f;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #feb47b;
+        }
+
+        .feature {
+            background: rgba(255, 255, 255, 0.8);
+            margin: 1rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dimzz SC Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Dimzz SC Store</h2>
+        <p>Your one-stop shop for WhatsApp bots with numerous features to assist you in your daily activities.</p>
+        <a href="#features" class="btn">Explore Features</a>
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Automated Responses</h3>
+            <p>Our bot can handle automated responses to frequently asked questions, saving you time and effort.</p>
+        </div>
+        <div class="feature">
+            <h3>Broadcast Messages</h3>
+            <p>Send broadcast messages to multiple contacts at once with ease.</p>
+        </div>
+        <div class="feature">
+            <h3>Scheduled Messages</h3>
+            <p>Schedule messages to be sent at a later time, ensuring you never miss an important communication.</p>
+        </div>
+        <div class="feature">
+            <h3>Custom Commands</h3>
+            <p>Create custom commands to perform specific tasks tailored to your needs.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to purchase our bot, feel free to contact us on WhatsApp.</p>
+        <a href="https://wa.me/6287740794085" class="btn">Contact on WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Dimzz SC Store. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
